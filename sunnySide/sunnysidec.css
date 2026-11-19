@@ -98,8 +98,82 @@ button{
            gap: 20px;
            width: 100%;
            padding: 20px;
-           
+        font-family: "Fraunces", serif; 
+        text-align: center
 }
+.pay div h1{
+        width:75%;
+        text-align: center;
+         font-family: "Fraunces", serif; ;
+
+}
+.layout div p{
+            width:75%;
+            text-align: center;
+            color:#818498 ;
+             font-family: "Barlow", sans-serif;
+             font-weight:600;
+             line-height: 1.8;
+             
+             
+            
+}
+.pay div p{
+     width: 85%;
+     text-align: center;
+     color: #818498;
+     font-family: "Barlow", sans-serif;
+     font-weight:600;
+     line-height: 1.8;
+    
+}
+
+
+#learn1{
+       color: #23303E;
+       position: relative;
+       display: inline-block;
+       font-weight:900;
+       letter-spacing: 2px;
+       z-index: 1;
+       font-size: 18px;
+        text-decoration: none;
+}
+#learn1::after{
+               content: "";
+               position: absolute;
+               background-color: #F8E58C;
+               height: 10px;
+               width: 110%;
+               left: -5%;
+               bottom: 0%;
+               z-index: -1;
+               border-radius:20px;
+}
+
+#learn2{
+        columns: #23303E;
+        position: relative;
+        display: inline-block;
+        font-weight: 900;
+        letter-spacing: 2PX;
+        z-index: 1;
+        font-size: 18px;
+        text-decoration: none;
+    }
+#learn2::after{
+               content: "";
+               position: absolute;
+               background-color: #F2B6A8;
+               height: 12px;
+               width: 110%;
+               left: -5%;
+               bottom: 0%;
+               z-index: -1;
+               border-radius:20px;
+}
+
+
 #design{
       width: 100%;
 
@@ -120,10 +194,21 @@ button{
                    gap: 20px;
                    padding: 0px 20px;
                    width: 100%;
+
                    
 }
 #photography{
              margin-top: -4px;
+}
+
+#tp1{
+    color:  #818498;
+     font-family: "Barlow", sans-serif;
+     font-weight:600;
+     line-height: 1.8;
+     padding: 20px;
+    
+
 }
 .testimony{
           display: flex;
@@ -131,7 +216,23 @@ button{
           align-items: center;
           padding: 100px 0px;
           gap: 50px;
+        
 }
+.testimony h1{
+              text-align: center;
+              text-transform: uppercase;
+              letter-spacing: 5px;
+              font-size: 20px;
+              font-weight: bold;
+              white-space:nowrap;
+              color:  #818498;
+}
+
+#pbold{
+    color:#23303E;
+}   
+
+
 .container{
              display: flex;
              flex-direction: column;
@@ -180,7 +281,12 @@ footer{
     display: none;
 } 
 .md{
-    color: var(--Grayish-blue);
+    color: #818498;
+    padding: 25px 0px;
+}
+.so{
+    font-weight: bold;
+    gap: 25px;
 }
 
 
